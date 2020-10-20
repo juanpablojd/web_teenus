@@ -109,11 +109,11 @@ body {
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
-}
+} */
 
 /*-- 3. Button-Style --*/
 
@@ -144,7 +144,7 @@ input:-webkit-autofill:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     z-index: -1;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -167,7 +167,8 @@ input:-webkit-autofill:focus {
     padding: 12px 30px;
     background-color: #ffffff;
     display: inline-block;
-    color: #768ede;
+    /* color: #768ede; */
+    color: white;
     text-transform: uppercase;
     border-radius: 50px;
     letter-spacing: 1.5px;
@@ -1059,7 +1060,7 @@ input:-webkit-autofill:focus {
     animation: mymove 1.5s infinite linear;
 }
 
-@-webkit-keyframes mymove {
+/* @-webkit-keyframes mymove {
     0 {
         -webkit-box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
         box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
@@ -1103,7 +1104,7 @@ input:-webkit-autofill:focus {
         -webkit-box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
         box-shadow: 0 0 0 0 rgba(94, 136, 252, 0.6), 0 0 0 0 rgba(94, 136, 252, 0.6);
     }
-}
+} */
 
 /*-- 20. Blog-Post --*/
 
@@ -1337,3 +1338,5 @@ input:-webkit-autofill:focus {
     font-family: avenir, helvetica, sans-serif;
     font-weight: 800;
   }
+
+  

@@ -1,85 +1,95 @@
-$(document).ready(function(){
-    
-    (function($) {
-        "use strict";
 
-    
-    jQuery.validator.addMethod('answercheck', function (value, element) {
-        return this.optional(element) || /^\bcat\b$/.test(value)
-    }, "type the correct answer -_-");
+$(document).ready(function () {
 
-    // validate contactForm form
-    $(function() {
-        $('#contactForm').validate({
-            rules: {
-                name: {
-                    required: true,
-                    minlength: 2
-                },
-                subject: {
-                    required: true,
-                    minlength: 4
-                },
-                number: {
-                    required: true,
-                    minlength: 5
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                message: {
-                    required: true,
-                    minlength: 20
-                }
-            },
-            messages: {
-                name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
-                },
-                subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
-                },
-                number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
-                },
-                email: {
-                    required: "no email, no message"
-                },
-                message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
-                }
-            },
-            submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    type:"POST",
-                    data: $(form).serialize(),
-                    url:"contact_process.php",
-                    success: function() {
-                        $('#contactForm :input').attr('disabled', 'disabled');
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn()
-                            $('.modal').modal('hide');
-		                	$('#success').modal('show');
-                        })
-                    },
-                    error: function() {
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $('#error').fadeIn()
-                            $('.modal').modal('hide');
-		                	$('#error').modal('show');
-                        })
-                    }
-                })
+    $('#alertError').hide();
+    $('#alertExito').hide();
+    $('#alertEmail').hide();
+    $('#alertNombre').hide();
+    $('#alertTelefono').hide();
+    $('#alertMensaje').hide();
+
+
+    $("#btnEnviar").click(function (e) {
+        e.preventDefault();
+        if (validaForm()) {
+
+            nombre = $('#nombre').val();
+            telefono = $('#telefono').val();
+            email = $('#email').val();
+            producto = $("#select1 option:selected").val();
+            mensaje = $('#mensaje').val();
+
+            data = {
+                nombre: nombre,
+                telefono: telefono,
+                email: email,
+                producto: producto,
+                mensaje: mensaje,
             }
-        })
-    })
-        
- })(jQuery)
-})
+
+
+            $.ajax({
+                type: "POST",
+                url: "../assets/controller/contact.php",
+                data: data,
+
+                success: function (response) {
+                    if (response > 0) {
+                        $("#alertExito").delay(500).fadeIn("slow");
+                        $("#alertExito").fadeOut(7000);
+
+
+                        $('#nombre').val('');
+                        $('#telefono').val('');
+                        $('#email').val('');
+                        $("#select1 option[value=" + 0 + "]").attr("selected", true);
+                        //producto = $("#select1 option:selected").val();
+                        $('#mensaje').val('');
+
+                    } else {
+                        //$("#alertError").delay(500).fadeIn("slow");
+                        setTimeout(function () { $("#alertError").fadeOut(1500); }, 3000);
+                    }
+                }
+            });
+
+        }
+    });
+});
+
+/* validar formulario */
+
+function validaForm() {
+
+    let nombre = $("#nombre").val();
+    let telefono = $("#telefono").val();
+    let email = $("#email").val();
+    let mensaje = $("#mensaje").val();
+    let producto = $("#select1 option:selected").val();
+
+    if (nombre.length < 0 || telefono.length < 0 || email.length < 0 || mensaje.length < 0 || producto == 0) {
+        $("#alertError").fadeIn("slow");
+        $("#alertError").fadeOut(7000);
+        return false;
+    } else if (nombre.length < 5) {
+        $("#alertNombre").fadeIn("slow");
+        $("#alertNombre").fadeOut(7000);
+        return false;
+    } else if (telefono.length < 7) {
+        $("#alertTelefono").fadeIn("slow");
+        $("#alertTelefono").fadeOut(7000);
+        return false;
+    } else if (mensaje.length < 10) {
+        $("#alertMensaje").fadeIn("slow");
+        $("#alertMensaje").fadeOut(7000);
+        return false;
+    } else if ($("#email").val().indexOf('@', 0) == -1 || $("#email").val().indexOf('.', 0) == -1) {
+        $("#alertEmail").fadeIn("slow");
+        $("#alertEmail").fadeOut(7000);
+        return false;
+    }
+    return true;
+}
+
+
+
