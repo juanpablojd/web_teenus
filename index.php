@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Teenus SAS </title>
-    <meta name="description"
-        content="Desarrollamos tus aplicaciones web de forma fácil, intuitiva, funcional y a bajo precio">
+    <meta name="description" content="Desarrollamos tus aplicaciones web de forma fácil, intuitiva, funcional y a bajo precio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
@@ -28,7 +27,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-50746429-1');
@@ -39,99 +41,12 @@
 <body>
 
     <!-- Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/logo-Teenus.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include_once('partials/preloader.php'); ?>
     <!-- Preloader Start -->
 
     <header>
         <!-- Header Start -->
-        <div class="header-area">
-            <div class="main-header ">
-                <div class="header-top top-bg d-none d-lg-block">
-                    <div class="container-fluid">
-                        <div class="col-xl-12">
-                            <div class="row d-flex justify-content-between align-items-center">
-                                <div class="header-info-left">
-                                    <ul>
-                                        <li><i class="fas fa-map-marker-alt"></i>Bogotá D.C., Colombia</li>
-                                        <li><i class="fas fa-envelope"></i>info@teenus.com.co</li>
-                                    </ul>
-                                </div>
-                                <div class="header-info-right">
-                                    <ul class="header-social">
-                                        <li><a href="https://www.linkedin.com/company/teenus"><i
-                                                    class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="https://twitter.com/teenus_sas"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li><a href="https://www.facebook.com/teenus.com.co/"><i
-                                                    class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.instagram.com/teenussas/"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-1 col-md-1">
-                                <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo-Teenus.png" alt="logo"
-                                            width="100%"></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-8 col-lg-8 col-md-8">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="index.html">Inicio</a></li>
-                                            <li><a href="#enfoque">Nosotros</a></li>
-                                            <li><a href="/service/index.html">Servicios</a></li>
-                                            <li><a href="/tezlik/index.html">Productos</a></li>
-                                            <li><a href="#casos">Casos</a></li>
-                                            <!-- <li><a href="blog.html">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-blog.html">Detalle de Blog </a></li>
-                                                </ul>
-                                            </li> -->
-                                            <!--  <li><a href="#">Paginas</a>
-                                                <ul class="submenu">
-                                                    <li><a href="contact.html">Contacto</a></li>
-                                                    <li><a href="elements.html">Elementos</a></li>
-                                                    <li><a href="case_details.html">Detalle de Caso</a></li> 
-                                                </ul>
-                                            </li>-->
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 col-lg-3 col-md-3">
-                                <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a href="#contactenos" class="btn header-btn">Contactanos</a>
-                                </div>
-                            </div>
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include_once("partials/head.php"); ?>
         <!-- Header End -->
     </header>
 
@@ -140,15 +55,13 @@
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active">
-                <div class="single-slider slider-height d-flex align-items-center"
-                    data-background="assets/img/hero/h1_hero.jpg">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8">
                                 <div class="hero__caption">
-                                    <p data-animation="fadeInLeft" data-delay=".4s" style="font-weight:700"> Bienvenidos
-                                        a Teenus </p>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s">Hacemos crecer tu empresa. </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".4s" style="font-weight:900"> Bienvenidos a Teenus </p>
+                                    <h2 data-animation="fadeInLeft" data-delay=".6s"> <strong>Entregamos oportunidades de ahorro a las Empresas durante el proceso de la fijación de precios y materias primas de cada uno de los productos.</strong></h2>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
                                         <!-- <a href="industries.html" class="btn hero-btn">Leer Más</ a>-->
@@ -158,16 +71,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-slider slider-height d-flex align-items-center"
-                    data-background="assets/img/hero/h1_hero.jpg">
+                <div class="single-slider slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8">
                                 <div class="hero__caption">
-                                    <p data-animation="fadeInLeft" data-delay=".4s" style="font-weight:700">Bienvenidos
-                                        a Teenus</p>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s">Hacemos sostenible tu empresa.
-                                    </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".4s" style="font-weight:900">Bienvenidos a Teenus</p>
+                                    <h2 data-animation="fadeInLeft" data-delay=".6s">Hacemos viable el desarrollo de aplicaciones para su empresa. Fácil, agil y asequible.</h2>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
                                         <!-- <a href="industries.html" class="btn hero-btn">Leer Más</a> -->
@@ -583,28 +493,23 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-box  mb-30">
-                                            <input type="text" name="nombre" id="nombre" class="form-control"
-                                                placeholder="Nombres y Apellidos" required>
+                                            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombres y Apellidos" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-box mb-30">
-                                            <input type="text" name="telefono" id="telefono" class="form-control"
-                                                placeholder="Telefono" required>
+                                            <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Telefono" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-box mb-30">
-                                            <input type="text" name="email" id="email" class="form-control"
-                                                placeholder="Email" required>
+                                            <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-box mb-30">
-                                            <textarea name="mensaje" id="mensaje" rows="3" class="form-control"
-                                                style=" background:transparent; border: 2px solid #295684;color: white;"
-                                                placeholder="Es un gusto hablar contigo"></textarea>
+                                            <textarea name="mensaje" id="mensaje" rows="3" class="form-control" style=" background:transparent; border: 2px solid #295684;color: white;" placeholder="Es un gusto hablar contigo"></textarea>
                                             <!-- <input type="textarea" name="message" placeholder="Mensaje" required> -->
                                         </div>
                                     </div>
@@ -623,8 +528,7 @@
                                         <button type="submit" class="send-btn" id="btnEnviar">Enviar</button>
                                     </div>
 
-                                    <div class="alert alert-warning alert-dismissible fade show" role="alert"
-                                        id="alertError">
+                                    <div class="alert alert-warning alert-dismissible fade show" role="alert" id="alertError">
                                         <strong>Ingresa todos los datos para poder contactarte!</strong>, estaremos
                                         felices de hablar contigo
                                     </div>
@@ -684,13 +588,10 @@
                 <div class="col-lg-3 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Nuestras Redes Sociales</h4>
                     <div class="mb-5"></div>
-                    <a href="https://www.facebook.com/teenus.com.co/"><i class="fa fa-facebook-official fa-2x"
-                            aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/teenus.com.co/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
                     <a href="https://twitter.com/teenussas"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://ec.linkedin.com/company/teenus"><i class="fa fa-linkedin fa-2x"
-                            aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/teenussas/"><i class="fa fa-instagram fa-2x"
-                            aria-hidden="true"></i></a>
+                    <a href="https://ec.linkedin.com/company/teenus"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/teenussas/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
                 </div>
 
             </div>
@@ -698,9 +599,10 @@
                 <p class="footer-text m-0 col-lg-8 col-md-12">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;
-                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
-                    made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                        target="_blank">Colorlib</a>
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved | This template is
+                    made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
                 <!-- <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
@@ -847,8 +749,7 @@
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
 
-    <script type="text/javascript" async
-    src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
 
 </body>
 

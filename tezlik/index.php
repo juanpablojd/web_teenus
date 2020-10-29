@@ -101,7 +101,7 @@
                     </div> -->
                     <div class="space-20"></div>
                     <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white wow fadeInUp" data-wow-delay="0.8s">
-                        <i class="lnr lnr-download"></i>Empieza gratis</a>
+                        <i class="lnr lnr-download"></i>Empieza gratis por un mes</a>
                 </div>
             </div>
         </div>
