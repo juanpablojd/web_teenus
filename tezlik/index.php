@@ -124,7 +124,7 @@
                             <p> Tezlik es una solución que cuenta con un potente algoritmo especialmente desarrollado
                                 para la fijación de precios, generación de costos y rentabilidad objetivo con la
                                 finalidad
-                                de aumentar el margen de contibucion de los productos.</p>
+                                de aumentar el margen de contribución de los productos.</p>
                         </div>
 
                     </div>
