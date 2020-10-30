@@ -61,7 +61,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-8">
                                 <div class="hero__caption">
                                     <p data-animation="fadeInLeft" data-delay=".4s" style="font-weight:900"> Bienvenidos a Teenus </p>
-                                    <h2 data-animation="fadeInLeft" data-delay=".6s"> <strong>Entregamos oportunidades de ahorro a las Empresas durante el proceso de la fijación de precios y materias primas de cada uno de los productos.</strong></h2>
+                                    <h2 data-animation="fadeInLeft" data-delay=".6s"> <strong>Encuentre oportunidades de ahorro durante el proceso de la fijación de precios y negociacion de materias primas para cada uno de sus productos.</strong></h2>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
                                         <!-- <a href="industries.html" class="btn hero-btn">Leer Más</ a>-->

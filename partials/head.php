@@ -65,7 +65,7 @@
                             </div>
                             <div class="col-xl-2 col-lg-3 col-md-3">
                                 <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a href="#contactenos" class="btn header-btn">Contactanos</a>
+                                    <a href="../index.php#contactenos" class="btn header-btn">Contactanos</a>
                                 </div>
                             </div>
                             <!-- Mobile Menu -->

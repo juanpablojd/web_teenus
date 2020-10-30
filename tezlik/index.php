@@ -35,7 +35,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-50746429-1');
@@ -57,19 +60,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo/logo-Teenus.png"
-                        alt="Logo"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo/logo-Teenus.png" alt="Logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="primary_menu">
                 <ul class="nav navbar-nav mainmenu">
-                    <li class="active"><a href="#">Inicio</a></li>
+                    <li class="active"><a href="../index.php">Inicio</a></li>
                     <!-- <li><a href="#about_page">Tezlik</a></li> -->
                     <li><a href="#features_page">Funciones</a></li>
                     <li><a href="#gallery_page">Galeria</a></li>
                     <li><a href="#price_page">Precios</a></li>
                     <li><a href="#questions_page">FAQ</a></li>
                     <!-- <li><a href="blog.html">Blog</a></li> -->
-                    <li><a href="../index.html#contactenos">Contactenos</a></li>
+                    <li><a href="../index.php#contactenos">Contactenos</a></li>
+                    <li><a href="../blog">Blog</a></li>
                 </ul>
                 <div class="ml-5"></div>
                 <div class="right-button hidden-xs">
@@ -91,8 +94,7 @@
                 <div class="col-xs-12 col-md-7">
                     <!-- <div class="space-10 hidden-xs banner_content"></div> -->
                     <div style="color: #393a3d;">
-                        <h1 class="wow fadeInUp" data-wow-delay="0.4s">Aumenta la competitividad y mejora <span
-                                class="typed"></span>de tú empresa.</h1>
+                        <h1 class="wow fadeInUp" data-wow-delay="0.4s">Aumenta la competitividad y mejora <span class="typed"></span>de tú empresa.</h1>
                     </div>
                     <div class="space-20"></div>
                     <!-- <div class="desc wow fadeInUp" data-wow-delay="0.6s">
@@ -101,7 +103,7 @@
                     </div> -->
                     <div class="space-20"></div>
                     <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white wow fadeInUp" data-wow-delay="0.8s">
-                        <i class="lnr lnr-download"></i>Empieza gratis por un mes</a>
+                        <i class="lnr lnr-download"></i>Empieza gratis</a>
                 </div>
             </div>
         </div>
@@ -488,14 +490,16 @@
                                 <li>Software en la Nube</li>
                                 <li>Soporte Ilimitado</li>
                                 <li>Todas las funcionalidades</li>
+                                <li>Un usuario</li>
+                                <li>50 Referencias</li>
                             </ul>
                         </div>
-                        <div class="price-rate" style="color:red;">
-                            <sup>&#36;</sup> <span class="rate">70.000</span> <small>/Mes</small>
-                            <sup></sup> <span class="rate"></span> <br> <small>$70.000 Pago Mensual</small>
+                        <div class="price-rate" style="color:orange;">
+                            <sup>&#36;</sup> <span class="rate">80.000</span> <small>/Mes</small>
+                            <sup></sup> <span class="rate"></span> <br> <small>$80.000 Pago Mensual</small>
                         </div>
                         <div class="price-footer">
-                            <a href="https://cotizador.teenus.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
+                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
                         </div>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
@@ -507,12 +511,15 @@
                                 <span class="lnr lnr-diamond"></span>
                             </div>
                             <h4 class="upper">¡Wow!</h4>
+                            <h4 class="upper" style="color:red;">¡El más vendido!</h4>
                         </div>
                         <div class="price-body">
                             <ul>
                                 <li>Software en la Nube</li>
                                 <li>Soporte ilimitado</li>
                                 <li>Todas las funcionalidades</li>
+                                <li>Un usuario</li>
+                                <li>Ilimitadas Referencias</li>
                             </ul>
                         </div>
                         <div class="price-rate">
@@ -521,7 +528,7 @@
                         </div>
 
                         <div class="price-footer">
-                            <a href="https://cotizador.teenus.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
+                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
                         </div>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
@@ -540,14 +547,16 @@
                                 <li>Software en la Nube</li>
                                 <li>Soporte ilimitado</li>
                                 <li>Todas las funcionalidades</li>
+                                <li>Un usuario</li>
+                                <li>100 Referencias</li>
                             </ul>
                         </div>
                         <div class="price-rate" style="color: chocolate;">
-                            <sup>&#36;</sup> <span class="rate">60.000</span> <small>/Mes</small>
-                            <sup></sup> <span class="rate"></span> <br> <small>$180.000 Pago Trimestral</small>
+                            <sup>&#36;</sup> <span class="rate">65.000</span> <small>/Mes</small>
+                            <sup></sup> <span class="rate"></span> <br> <small>$195.000 Pago Trimestral</small>
                         </div>
                         <div class="price-footer">
-                            <a href="https://cotizador.teenus.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
+                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -731,14 +740,10 @@
                 <div class="col-lg-3 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
                     <h4>Nuestras Redes Sociales</h4>
                     <div class="mb-5"></div>
-                    <a href="https://www.facebook.com/teenus.com.co/"><i class="fa fa-facebook-official fa-2x"
-                            style="color: #7b838a;"></i></a>
-                    <a href="https://twitter.com/teenussas"><i class="fa fa-twitter fa-2x"
-                            style="color: #7b838a;"></i></a>
-                    <a href="https://ec.linkedin.com/company/teenus"><i class="fa fa-linkedin fa-2x"
-                            style="color: #7b838a;"></i></a>
-                    <a href="https://www.instagram.com/teenussas/"><i class="fa fa-instagram fa-2x"
-                            style="color: #7b838a;"></i></a>
+                    <a href="https://www.facebook.com/teenus.com.co/"><i class="fa fa-facebook-official fa-2x" style="color: #7b838a;"></i></a>
+                    <a href="https://twitter.com/teenussas"><i class="fa fa-twitter fa-2x" style="color: #7b838a;"></i></a>
+                    <a href="https://ec.linkedin.com/company/teenus"><i class="fa fa-linkedin fa-2x" style="color: #7b838a;"></i></a>
+                    <a href="https://www.instagram.com/teenussas/"><i class="fa fa-instagram fa-2x" style="color: #7b838a;"></i></a>
                 </div>
             </div>
         </div>
@@ -746,9 +751,10 @@
             <p class="footer-text m-0 col-lg-8 col-md-12">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;
-                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
-                made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                    target="_blank">Colorlib</a>
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is
+                made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
             <!-- <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
@@ -805,8 +811,7 @@
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="js/letras.js"></script>
-    <script type="text/javascript" async
-        src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
 </body>
 
 </html>

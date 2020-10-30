@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
-                        
+
                         <!-- <article class="blog_item">
                             <div class="blog_item_img">
                                 <img class="card-img rounded-0" src="../assets/img/blog/single_blog_1.png" alt="">
@@ -209,7 +209,7 @@
                         </aside>
 
                         <aside class="single_sidebar_widget post_category_widget">
-                            <h4 class="widget_title">Category</h4>
+                            <h4 class="widget_title">Categorias</h4>
                             <ul class="list cat-list">
                                 <li>
                                     <a href="#" class="d-flex">
@@ -217,13 +217,13 @@
                                         <p id=cantidad_categoria>(37)</p>
                                     </a>
                                 </li>
-                                <!-- <li>
+                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Travel news</p>
+                                        <p>Tezlik</p>
                                         <p>(10)</p>
                                     </a>
                                 </li>
-                                <li>
+                                <!--<li>
                                     <a href="#" class="d-flex">
                                         <p>Modern technology</p>
                                         <p>(03)</p>
@@ -250,7 +250,7 @@
                             </ul>
                         </aside>
 
-                       <!--  <aside class="single_sidebar_widget popular_post_widget">
+                        <!--  <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Recent Post</h3>
                             <div class="media post_item">
                                 <img src="../assets/img/post/post_1.png" alt="post">
@@ -417,7 +417,6 @@
     <script src="../assets/js/plugins.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../blog/js/cargar.js"></script>
-    <script src="../blog/js/cargarblog.js"></script>
 
 </body>
 
