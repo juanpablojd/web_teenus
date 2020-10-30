@@ -71,6 +71,7 @@
                                 </ul>
                             </li>  -->
                             <li class="nav-item"><a class="nav-link" href="../index.php#contactenos">Contactenos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php">Blog</a></li>
                         </ul>
                     </div>
                     <div class="right-button">

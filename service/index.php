@@ -46,7 +46,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="../index.html"><img src="img/logo Teenus.png" alt="logo teenus" style="width:100px;height: 40px;"></a>
+                    <a class="navbar-brand logo_h" href="../index.php"><img src="img/logo Teenus.png" alt="logo teenus" style="width:100px;height: 40px;"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -102,7 +102,7 @@
                         <div class="banner_content">
                             <h3>Construya la mejor versión de su <span class="typed"></span></h3>
                             <p>Desarrollemos sus aplicaciones para que pueda ver el futuro con rapidez</p>
-                            <a class="banner_btn" href="../index.html#contactenos">Comience Aqui<i class="ti-arrow-right"></i></a>
+                            <a class="banner_btn" href="../index.php#contactenos">Comience Aqui<i class="ti-arrow-right"></i></a>
                         </div>
                     </div>
 
@@ -324,7 +324,7 @@
                             calidad y precio </p>
                     </div>
                     <div style="display: grid;">
-                        <button onclick="window.location.href='../index.html#contactenos'" class="btn btn-sucess mb-5" style="justify-self: center;">Contactenos Ahora</button>
+                        <button onclick="window.location.href='../index.php#contactenos'" class="btn btn-sucess mb-5" style="justify-self: center;">Contactenos Ahora</button>
 
                     </div>
                 </div>

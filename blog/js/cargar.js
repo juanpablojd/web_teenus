@@ -32,7 +32,7 @@ $(document).ready(function () {
                 $('.blog_left_sidebar').append(`<article class="blog_item"><div class="blog_item_img">
                 <img class="card-img rounded-0" src="${elem.photo}" alt="blog" style="width: 80%;">
                 <a href = "#" class="blog_item_date"><h3>${dia}</h3><p>${mes} - ${year}</p></a ></div ><div class="blog_details">
-                <a class="d-inline-block"><h2 id=${elem.id_notice} onclick="cargarlecturaBlog(id);">${elem.title}</h2>
+                <a class="d-inline-block"><h2 id=${elem.id_notice} onclick="cargarlecturaBlog(id);" class="titulo">${elem.title}</h2>
                 </a><p>${primeraParte}</p>
                 <ul class="blog-info-link"><li><a href="#"><i class="fa fa-user"></i> Teenus SAS</a></li>
                 <li><a href="#"><i class="fa fa-eye"></i> ${elem.hits} Vistas</a></li></ul></div></article >`);
@@ -41,6 +41,12 @@ $(document).ready(function () {
     });
 });
 
+/* Modificar cursor mouse */
+debugger
+set
+
+
+$('.titulo').css('cursor', 'pointer');
 
 /* cargar blog especifico para lectura  */
 
