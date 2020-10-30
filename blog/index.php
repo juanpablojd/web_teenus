@@ -23,6 +23,25 @@
     <link rel="stylesheet" href="../assets/css/nice-select.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="../blog/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-50746429-1');
+    </script>
+
 </head>
 
 <body>
@@ -217,7 +236,7 @@
                                         <p id=cantidad_categoria>(37)</p>
                                     </a>
                                 </li>
-                                 <li>
+                                <li>
                                     <a href="#" class="d-flex">
                                         <p>Tezlik</p>
                                         <p>(10)</p>
@@ -374,6 +393,20 @@
     </section>
     <!--================Blog Area =================-->
 
+    <!-- Barra de navegacion redes sociales -->
+
+    <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/teenus.com.co/" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/teenus_sas" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/teenussas/" target="_blank" class="icon-googleplus"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://gt.linkedin.com/company/teenus" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <!-- <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li> -->
+        </ul>
+    </div>
+
+    <!-- Barra de navegacion redes sociales -->
+
     <footer>
         <!-- Footer Start-->
         <?php include_once("../partials/footer.php"); ?>
@@ -417,6 +450,7 @@
     <script src="../assets/js/plugins.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../blog/js/cargar.js"></script>
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
 
 </body>
 

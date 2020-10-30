@@ -24,7 +24,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="../blog/style.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     <!--[if lt IE 9]>
@@ -796,6 +800,22 @@
     <!-- Footer-Bootom-End -->
     <!-- </footer> -->
     <!-- Footer-Area-End -->
+
+    <!-- Barra de navegacion redes sociales -->
+
+    <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/teenus.com.co/" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/teenus_sas" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/teenussas/" target="_blank" class="icon-googleplus"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://gt.linkedin.com/company/teenus" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <!-- <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li> -->
+        </ul>
+    </div>
+
+    <!-- Barra de navegacion redes sociales -->
+
+
     <!--Vendor-JS-->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/vendor/jquery-ui.js"></script>

@@ -18,10 +18,16 @@
     <link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
+    
+    <!-- fonts -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="../blog/style.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
@@ -615,7 +621,19 @@
         </div>
     </footer>
 
+    <!-- Barra de navegacion redes sociales -->
 
+    <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/teenus.com.co/" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/teenus_sas" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/teenussas/" target="_blank" class="icon-googleplus"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://gt.linkedin.com/company/teenus" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <!-- <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li> -->
+        </ul>
+    </div>
+
+    <!-- Barra de navegacion redes sociales -->
     <!-- Footer Start-->
     <!--    <footer>
         <div class="footer-area footer-padding">

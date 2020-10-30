@@ -19,6 +19,20 @@
     <link rel="stylesheet" href="../service/css/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../service/css/responsive.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-50746429-1');
+    </script>
+
 </head>
 
 <body>
@@ -592,17 +606,18 @@
         </div>
     </footer> -->
     <!-- ================ End footer Area ================= -->
+    <!-- Barra de navegacion redes sociales -->
     <div class="social">
-		<ul>
-			<li><a href="https://www.facebook.com/teenus.com.co/" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-			<li><a href="https://twitter.com/teenus_sas" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-			<li><a href="https://www.instagram.com/teenussas/" target="_blank" class="icon-googleplus"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-			<li><a href="https://gt.linkedin.com/company/teenus" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			<!-- <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li> -->
-		</ul>
-	</div>
+        <ul>
+            <li><a href="https://www.facebook.com/teenus.com.co/" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/teenus_sas" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/teenussas/" target="_blank" class="icon-googleplus"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://gt.linkedin.com/company/teenus" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <!-- <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li> -->
+        </ul>
+    </div>
 
-
+    <!-- Barra de navegacion redes sociales -->
 
 
 
@@ -622,6 +637,7 @@
     <script src="../service/js/theme.js"></script>
     <script src="../assets/js/vendor/moment-with-locales.min.js"></script>
     <script src="../blog/js/cargarblog.js"></script>
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
 </body>
 
 </html>
