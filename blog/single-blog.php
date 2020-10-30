@@ -594,11 +594,11 @@
     <!-- ================ End footer Area ================= -->
     <div class="social">
 		<ul>
-			<li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-			<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-			<!-- <li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon-googleplus"></a></li> -->
-			<li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			<li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
+			<li><a href="https://www.facebook.com/teenus.com.co/" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+			<li><a href="https://twitter.com/teenus_sas" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.instagram.com/teenussas/" target="_blank" class="icon-googleplus"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="https://gt.linkedin.com/company/teenus" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			<!-- <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li> -->
 		</ul>
 	</div>
 
