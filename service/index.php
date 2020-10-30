@@ -171,7 +171,6 @@
     <section class="about-area ">
         <div class="container">
             <div class="row align-items-center">
-
                 <div class="col-lg-6">
                     <div class="area-heading">
                         <h4 style="color: blue;">¿Cómo iniciar? </h4>
@@ -210,6 +209,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <img src="img/banner/about1.png" alt="" style="width: 100%;">
+                </div>
             </div>
         </div>
     </section>
@@ -219,8 +221,10 @@
     <section class="feature-area area-padding bg_ones">
         <div class="container">
             <div class="row align-items-center">
-
-                <div class="offset-lg-6 col-lg-6">
+                <div class="lg-6 col-lg-6">
+                    <img src="img/banner/about2.png" alt="" style="width: 100%;">
+                </div>
+                <div class="lg-6 col-lg-6">
                     <div class="area-heading light">
                         <h4>Use facilmente <br>sus aplicaciones en su teléfono</h4>
                         <p>There earth face earth behold. She'd stars made void two given do and also. Our own grass
