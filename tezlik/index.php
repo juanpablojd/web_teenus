@@ -27,7 +27,7 @@
     <!-- fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css">
-    
+
     <link rel="stylesheet" href="../blog/style.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -485,25 +485,25 @@
                     <div class="price-box">
                         <div class="price-header">
                             <div class="price-icon">
-                                <span class="lnr lnr-rocket"></span>
+                                <span class="lnr lnr-star"></span>
                             </div>
-                            <h4 class="upper">Conservador</h4>
+                            <h4 class="upper">Estrella</h4>
                         </div>
                         <div class="price-body">
                             <ul>
                                 <li>Software en la Nube</li>
-                                <li>Soporte Ilimitado</li>
                                 <li>Todas las funcionalidades</li>
-                                <li>Un usuario</li>
-                                <li>50 Referencias</li>
+                                <li>Soporte ilimitado</li>
+                                <li><b>80 Referencias</b></li>
+                                <li><b>Un usuario</b></li>
                             </ul>
                         </div>
-                        <div class="price-rate" style="color:orange;">
+                        <!-- <div class="price-rate" style="color:orange;">
                             <sup>&#36;</sup> <span class="rate">80.000</span> <small>/Mes</small>
                             <sup></sup> <span class="rate"></span> <br> <small>$80.000 Pago Mensual</small>
-                        </div>
+                        </div> -->
                         <div class="price-footer">
-                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
+                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a>
                         </div>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
@@ -512,27 +512,26 @@
                     <div class="price-box">
                         <div class="price-header">
                             <div class="price-icon">
-                                <span class="lnr lnr-diamond"></span>
+                                <span class="lnr lnr-moon"></span>
                             </div>
-                            <h4 class="upper">¡Wow!</h4>
-                            <h4 class="upper" style="color:red;">¡El más vendido!</h4>
+                            <h4 class="upper">Luna <br> ¡Increible!</h4>
                         </div>
                         <div class="price-body">
                             <ul>
                                 <li>Software en la Nube</li>
-                                <li>Soporte ilimitado</li>
                                 <li>Todas las funcionalidades</li>
-                                <li>Un usuario</li>
-                                <li>Ilimitadas Referencias</li>
+                                <li>Soporte ilimitado</li>
+                                <li><b>150 Referencias</b></li>
+                                <li><b>Un usuario</b></li>
                             </ul>
                         </div>
-                        <div class="price-rate">
+                        <!-- <div class="price-rate">
                             <sup></sup> <span class="rate">$50.000</span> <small>/Mes</small>
                             <sup></sup> <span class="rate"></span> <br> <small>$600.000 Pago Anual</small>
-                        </div>
+                        </div> -->
 
                         <div class="price-footer">
-                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
+                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a>
                         </div>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
@@ -542,25 +541,27 @@
                     <div class="price-box">
                         <div class="price-header">
                             <div class="price-icon">
-                                <span class="lnr lnr-pie-chart"></span>
+                                <span class="lnr lnr-sun"></span>
                             </div>
-                            <h4 class="upper">¡Increible!</h4>
+                            <h4 class="upper">Sol</h4>
+                            <!-- <br>¡Wow! -->
+                            <h4 class="upper" style="color:red;">¡El más vendido!</h4>
                         </div>
                         <div class="price-body">
                             <ul>
                                 <li>Software en la Nube</li>
-                                <li>Soporte ilimitado</li>
                                 <li>Todas las funcionalidades</li>
-                                <li>Un usuario</li>
-                                <li>100 Referencias</li>
+                                <li>Soporte ilimitado</li>
+                                <li><b>Referencias ilimitadas</b></li>
+                                <li><b>Dos usuarios</b></li>
                             </ul>
                         </div>
-                        <div class="price-rate" style="color: chocolate;">
+                        <!-- <div class="price-rate" style="color: chocolate;">
                             <sup>&#36;</sup> <span class="rate">65.000</span> <small>/Mes</small>
                             <sup></sup> <span class="rate"></span> <br> <small>$195.000 Pago Trimestral</small>
-                        </div>
+                        </div> -->
                         <div class="price-footer">
-                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Comprar</a>
+                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a>
                         </div>
                     </div>
                 </div>
