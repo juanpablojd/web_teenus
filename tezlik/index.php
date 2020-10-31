@@ -612,8 +612,7 @@
                     <div class="toggole-boxs">
                         <h3>¿Cómo refiero a un amigo(a)?</h3>
                         <div>
-                            <p>Por favor cuentanos para poder hablar con él o ella, tendras grandes beneficios. Si
-                                refieres a 4 amigos tendras tu servicio <b>gratis</b> por un año.</p>
+                            <p>Por favor cuentanos para poder hablar con él o ella, tendras grandes beneficios.</p>
                         </div>
                         <h3>¿En la aplicación movil tengo la autenticación de doble factor? </h3>
                         <div>

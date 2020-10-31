@@ -42,8 +42,7 @@ $(document).ready(function () {
 });
 
 /* Modificar cursor mouse */
-debugger
-set
+
 
 
 $('.titulo').css('cursor', 'pointer');
