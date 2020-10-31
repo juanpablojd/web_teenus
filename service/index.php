@@ -55,7 +55,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="../index.php">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../">Inicio</a></li>
                             <li class="nav-item"><a class="nav-link" href="../tezlik/">Tezlik</a></li>
                             <li class="nav-item"><a class="nav-link" href="#precios">Precios</a></li>
                             <li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li>
@@ -776,17 +776,3 @@
 </body>
 
 </html>
-
-<div class="social-container">
-    <div class="links">
-        <a href="#" data-type="twitter" data-url="https://dantecervantes.com/pretty-social/" data-description="Pretty Social, botones para compartir en redes sociales" data-via="dcergo" class="prettySocial fa fa-twitter"></a>
-
-        <a href="#" data-type="facebook" data-url="https://dantecervantes.com/pretty-social/" data-title="prettySocial - botones para compartir personalizados" data-description="Crear botones personalizados para compartir en redes sociales" data-media="http://sonnyt.com/assets/imgs/prettySocial.png" class="prettySocial fa fa-facebook"></a>
-
-        <a href="#" data-type="googleplus" data-url="https://dantecervantes.com/pretty-social/" data-description="Crear botones personalizados para compartir en redes sociales" class="prettySocial fa fa-google-plus"></a>
-
-        <a href="#" data-type="pinterest" data-url="https://dantecervantes.com/pretty-social/" data-description="Crear botones personalizados para compartir en redes sociales" data-media="http://sonnyt.com/assets/imgs/prettySocial.png" class="prettySocial fa fa-pinterest"></a>
-
-        <a href="#" data-type="linkedin" data-url="https://dantecervantes.com/pretty-social/" data-title="prettySocial - botones para compartir personalizados." data-description="Crear botones personalizados para compartir en redes sociales" data-via="dcergo" data-media="http://sonnyt.com/assets/imgs/prettySocial.png" class="prettySocial fa fa-linkedin"></a>
-    </div>
-</div>

@@ -68,14 +68,14 @@
             </div>
             <div class="collapse navbar-collapse" id="primary_menu">
                 <ul class="nav navbar-nav mainmenu">
-                    <li class="active"><a href="../index.php">Inicio</a></li>
+                    <li class="active"><a href="../">Inicio</a></li>
                     <!-- <li><a href="#about_page">Tezlik</a></li> -->
                     <li><a href="#features_page">Funciones</a></li>
                     <li><a href="#gallery_page">Galeria</a></li>
                     <li><a href="#price_page">Precios</a></li>
                     <li><a href="#questions_page">FAQ</a></li>
                     <!-- <li><a href="blog.html">Blog</a></li> -->
-                    <li><a href="../index.php#contactenos">Contactenos</a></li>
+                    <li><a href="../#contactenos">Contactenos</a></li>
                     <li><a href="../blog">Blog</a></li>
                 </ul>
                 <div class="ml-5"></div>

@@ -32,7 +32,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-1 col-md-1">
                                 <div class="logo">
-                                    <a href="index.html"><img src="../assets/img/logo/logo-Teenus.png" alt="logo"
+                                    <a href="../"><img src="../assets/img/logo/logo-Teenus.png" alt="logo"
                                             width="100%"></a>
                                 </div>
                             </div>
@@ -41,10 +41,10 @@
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="../index.php">Inicio</a></li>
+                                            <li><a href="../">Inicio</a></li>
                                             <li><a href="#enfoque">Nosotros</a></li>
-                                            <li><a href="/service/index.php">Servicios</a></li>
-                                            <li><a href="/tezlik/index.php">Productos</a></li>
+                                            <li><a href="/service/">Servicios</a></li>
+                                            <li><a href="/tezlik/">Productos</a></li>
                                             <li><a href="#casos">Casos</a></li>
                                             <li><a href="../blog">Blog</a>
                                                 <!-- <ul class="submenu">
@@ -65,7 +65,7 @@
                             </div>
                             <div class="col-xl-2 col-lg-3 col-md-3">
                                 <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a href="../index.php#contactenos" class="btn header-btn">Contactanos</a>
+                                    <a href="../#contactenos" class="btn header-btn">Contactanos</a>
                                 </div>
                             </div>
                             <!-- Mobile Menu -->
