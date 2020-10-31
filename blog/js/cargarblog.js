@@ -24,7 +24,7 @@ $(document).ready(function () {
                 success: function (response) {
                     let info = JSON.parse(response);
                     moment.locale('es');
-                    
+
                     $.each(info.data, function (ind, elem) {
                         var m = moment(`${elem.created_at}`, "YYYY-MM-DD HH:mm:ss");
                         $('.recentpost').append(`<div class="media post_item">
@@ -42,3 +42,7 @@ $(document).ready(function () {
         }
     });
 });
+
+/* Compartir en redes sociales */
+
+

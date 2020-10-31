@@ -514,7 +514,8 @@
                             <div class="price-icon">
                                 <span class="lnr lnr-moon"></span>
                             </div>
-                            <h4 class="upper">Luna <br> ¡Increible!</h4>
+                            <h4 class="upper">Luna</h4>
+                            <!-- <br> ¡Increible! -->
                         </div>
                         <div class="price-body">
                             <ul>

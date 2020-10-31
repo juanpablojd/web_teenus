@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="icon" href="../assets/img/logo/logo.jpg" type="image/png">
     <title>Blog Teenus</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../service/css/bootstrap.css">
@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="../service/css/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../service/css/responsive.css">
+    <!-- social networks -->
+
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
@@ -43,7 +46,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <a class="navbar-brand logo_h" href="../../"><img src="../assets/img/logo/logo-Teenus.png" alt="" width="60%"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -52,7 +55,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.php">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../blog">Inicio</a></li>
                             <li class="nav-item"><a class="nav-link" href="../service">Servicios</a></li>
                             <li class="nav-item"><a class="nav-link" href="../tezlik">Tezlik</a></li>
                             <!-- <li class="nav-item submenu dropdown">
@@ -71,7 +74,7 @@
                                 </ul>
                             </li>  -->
                             <li class="nav-item"><a class="nav-link" href="../index.php#contactenos">Contactenos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.php">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../blog">Blog</a></li>
                         </ul>
                     </div>
                     <div class="right-button">
@@ -113,14 +116,17 @@
                         </div>
                         <div class="col-lg-3  col-md-3">
                             <div class="blog_info text-right">
+                            <!-- <div class="da-share-html da-fb da-tw da-lk"></div> -->
+
+
                                 <!-- <div class="post_tag">
                                     <a href="#">Food,</a>
                                     <a class="active" href="#">Technology,</a>
                                     <a href="#">Politics,</a>
                                     <a href="#">Lifestyle</a>
-                                </div> -->
+                                </div>
                                 <ul class="blog_meta list">
-                                    <!-- <li>
+                                    <li>
                                         <a href="#">Mark wiens
                                             <i class="lnr lnr-user"></i>
                                         </a>
@@ -139,7 +145,7 @@
                                         <a href="#">06 Comments
                                             <i class="lnr lnr-bubble"></i>
                                         </a>
-                                    </li> -->
+                                    </li>
                                 </ul>
                                 <ul class="social-links">
                                     <li>
@@ -157,7 +163,7 @@
                                             <i class="fab fa-linkedin"></i>
                                         </a>
                                     </li>
-                                    <!--  <li>
+                                    <li>
                                         <a href="#">
                                             <i class="fab fa-behance"></i>
                                         </a>
@@ -608,15 +614,15 @@
     </footer> -->
     <!-- ================ End footer Area ================= -->
     <!-- Barra de navegacion redes sociales -->
-    <div class="social">
+    <!--  <div class="social">
         <ul>
             <li><a href="https://www.facebook.com/teenus.com.co/" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
             <li><a href="https://twitter.com/teenus_sas" target="_blank" class="icon-twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
             <li><a href="https://www.instagram.com/teenussas/" target="_blank" class="icon-googleplus"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             <li><a href="https://gt.linkedin.com/company/teenus" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <!-- <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li> -->
+            <li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
         </ul>
-    </div>
+    </div> -->
 
     <!-- Barra de navegacion redes sociales -->
 
@@ -638,6 +644,8 @@
     <script src="../service/js/theme.js"></script>
     <script src="../assets/js/vendor/moment-with-locales.min.js"></script>
     <script src="../blog/js/cargarblog.js"></script>
+    <script src="../blog/vendor/jquery.da-share.js"></script>
+
     <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
 </body>
 

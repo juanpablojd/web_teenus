@@ -29,23 +29,40 @@ $(document).ready(function () {
                 let mes = elem.created_at.substring(5, 7);
                 let year = elem.created_at.substring(0, 4);
 
-                $('.blog_left_sidebar').append(`<article class="blog_item"><div class="blog_item_img">
-                <img class="card-img rounded-0" src="${elem.photo}" alt="blog" style="width: 80%;">
-                <a href = "#" class="blog_item_date"><h3>${dia}</h3><p>${mes} - ${year}</p></a ></div ><div class="blog_details">
-                <a class="d-inline-block"><h2 id=${elem.id_notice} onclick="cargarlecturaBlog(id);" class="titulo">${elem.title}</h2>
-                </a><p>${primeraParte}</p>
-                <ul class="blog-info-link"><li><a href="#"><i class="fa fa-user"></i> Teenus SAS</a></li>
-                <li><a href="#"><i class="fa fa-eye"></i> ${elem.hits} Vistas</a></li></ul></div></article >`);
+                $('.blog_left_sidebar').append(`<article class="blog_item">
+                <div class="blog_item_img">
+                    <img class="card-img rounded-0" src="${elem.photo}" alt="blog" style="width: 80%;">
+                    <a href="#" class="blog_item_date">
+                        <h3>${dia}</h3>
+                        <p>${mes} - ${year}</p>
+                    </a></div>
+                <div class="blog_details">
+                    <a class="d-inline-block">
+                        <div class='title' id='title'>
+                            <h2 id=${elem.id_notice} onclick="cargarlecturaBlog(id);">${elem.title}</h2>
+                        </div>
+                    </a>
+                    <p>${primeraParte}</p>
+                    <ul class="blog-info-link">
+                        <li><a href="#"><i class="fa fa-user"></i> Teenus SAS</a></li>
+                        <li><a href="#"><i class="fa fa-eye"></i> ${elem.hits} Vistas</a></li>
+                    </ul>
+                </div>
+            </article>`);
             });
         }
     });
 });
 
-/* Modificar cursor mouse */
+/* cambiar cursor */
+
+$('#6').mouseover(function (e) {
+    e.preventDefault();
+    debugger;
+    $('.title').css('cursor', 'pointer');
+});
 
 
-
-$('.titulo').css('cursor', 'pointer');
 
 /* cargar blog especifico para lectura  */
 
@@ -53,3 +70,4 @@ function cargarlecturaBlog(id) {
     localStorage.setItem('articuloId', id);
     window.location.href = './single-blog.php';
 };
+
