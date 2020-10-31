@@ -64,7 +64,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo/logo-Teenus.png" alt="Logo"></a>
+                <a class="navbar-brand" href="../"><img src="../assets/img/logo/logo-Teenus.png" alt="Logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="primary_menu">
                 <ul class="nav navbar-nav mainmenu">
