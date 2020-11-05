@@ -1339,4 +1339,9 @@ input:-webkit-autofill:focus {
     font-weight: 800;
   }
 
+  .btn-enviar{
+      display: grid;
+      justify-items: flex-end;
+      padding-right: 30px;
+  }
   

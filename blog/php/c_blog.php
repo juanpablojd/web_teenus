@@ -1,9 +1,9 @@
 <?php
 
-if (!empty($_POST)) {
+if (!empty($_GET)) {
     require_once('../../conexion.php');
 
-    $op = $_POST['operacion'];
+    $op = $_GET['operacion'];
     switch ($op) {
         case '1':
             $sql = "SELECT * FROM notices  
@@ -12,10 +12,7 @@ if (!empty($_POST)) {
             $query->execute();
             $result = $query->rowCount();
 
-
             if ($result > 0) {
-
-
                 while ($data = $query->fetch(PDO::FETCH_ASSOC)) {
                     $arreglo["data"][] = $data;
                 }
@@ -29,7 +26,11 @@ if (!empty($_POST)) {
             break;
             
         case 2:
-            $id = $_POST['id_articulo'];
+            $id = $_GET['articulo'];
+
+            $sql = "UPDATE notices SET hits = hits + 1 WHERE id_notice = :id";
+            $query = $conn->prepare($sql);
+            $query->execute(['id' => $id]);
 
             $sql = "SELECT * FROM notices WHERE id_notice = :id";
             $query = $conn->prepare($sql);

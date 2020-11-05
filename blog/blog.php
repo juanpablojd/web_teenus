@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
@@ -19,9 +19,6 @@
     <link rel="stylesheet" href="../service/css/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../service/css/responsive.css">
-    <!-- social networks -->
-
-
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50746429-1"></script>
@@ -32,7 +29,6 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'UA-50746429-1');
     </script>
 
@@ -116,7 +112,7 @@
                         </div>
                         <div class="col-lg-3  col-md-3">
                             <div class="blog_info text-right">
-                            <!-- <div class="da-share-html da-fb da-tw da-lk"></div> -->
+                                <!-- <div class="da-share-html da-fb da-tw da-lk"></div> -->
 
 
                                 <!-- <div class="post_tag">
@@ -173,9 +169,8 @@
                         </div>
                         <div class="blog_details">
                             <h2 class="titulo">r</h2>
-                            <ul class="blog-info-link mt-3 mb-4">
-                                <li><a href="#"><i class="far fa-user"></i> Teenus SAS</a></li>
-                                <li><a href="#"><i class="far fa-eye"></i> 03 vistas</a></li>
+                            <ul class="blog-info-link mt-3 mb-4 vistas">
+
                             </ul>
                             <p class="excert">
                             </p>
@@ -199,6 +194,7 @@
                                 MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually
                             </p> -->
                         </div>
+
                     </div>
                     <div class="navigation-top">
                         <div class="d-sm-flex justify-content-between text-center">
@@ -207,10 +203,9 @@
                                 <p class="comment-count"><span class="align-middle"><i class="far fa-comment"></i></span> 06 Comments</p>
                             </div> -->
                             <ul class="social-icons">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <!--  <li><a href="#"><i class="fab fa-behance"></i></a></li> -->
                             </ul>
                         </div>
 
@@ -414,7 +409,7 @@
                                 </li>
                                 <li>
                                     <a href="#" class="d-flex">
-                                        <p>Teslik</p>
+                                        <p>Tezlik</p>
                                         <p>(10)</p>
                                     </a>
                                 </li>
@@ -647,6 +642,7 @@
     <script src="../blog/vendor/jquery.da-share.js"></script>
 
     <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
+
 </body>
 
 </html>

@@ -4,9 +4,9 @@ let articulo_Id;
 
 $(document).ready(function () {
     $.ajax({
-        type: "POST",
-        url: "./php/blog.php",
-        data: { operacion: 1 },
+        type: "GET",
+        url: "./php/c_blog.php",
+        data:  "operacion=1" ,
 
         success: function (response) {
 
@@ -58,7 +58,7 @@ $(document).ready(function () {
 
 $('#6').mouseover(function (e) {
     e.preventDefault();
-    debugger;
+
     $('.title').css('cursor', 'pointer');
 });
 
@@ -68,6 +68,6 @@ $('#6').mouseover(function (e) {
 
 function cargarlecturaBlog(id) {
     localStorage.setItem('articuloId', id);
-    window.location.href = './single-blog.php';
+    window.location.href = './blog.php';
 };
 

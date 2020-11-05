@@ -1,5 +1,7 @@
+<?php include_once('modal/m_cotizacion.php'); ?>
+
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -24,13 +26,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="../blog/style.css">
     <!-- fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="../blog/style.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-
+    <!-- alerts -->
+    <link rel="stylesheet" href="../assets/toastr/toastr.min.css">
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -128,9 +131,8 @@
                         <div class="space-10"></div>
                         <div style="color: #c99806;">
                             <p> Tezlik es una solución que cuenta con un potente algoritmo especialmente desarrollado
-                                para la fijación de precios, generación de costos y rentabilidad objetivo con la
-                                finalidad
-                                de aumentar el margen de contribución de los productos.</p>
+                                para la fijación de precios, generación de costos y rentabilidad para cada uno de tus productos con la
+                                finalidad de aumentar la ganancia en cada uno de ellos.</p>
                         </div>
 
                     </div>
@@ -152,9 +154,8 @@
                         <div class="space-20"></div>
                         <div class="desc wow fadeInUp" data-wow-delay="0.6s">
                             <p>Tezlik cuenta con un potente <b>algoritmo que hace el trabajo duro</b> para que no tengas
-                                que cambiar tu estilo de vida. Dedicale más tiempo a la familia y no al trabajo. Tezliz
-                                te
-                                ayuda a fijar los precios, costos y la rentabilidad que necesitas.</p>
+                                que cambiar tu estilo de vida. Dedicale más tiempo a lo que te gusta. Tezliz
+                                te ayuda a fijar los precios, costos y la rentabilidad que necesitas.</p>
                         </div>
                         <!-- <div class="space-50"></div>
                         <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a> -->
@@ -228,7 +229,7 @@
                             <i class="lnr lnr-rocket"></i>
                         </div>
                         <h4>Rápido y poderoso</h4>
-                        <p>Obtén resultados en minutos</p>
+                        <p>Libérate de preocupaciones por cálculos manuales, Tezlik cuenta con un potente algoritmo que hace el trabajo duro para que solo te enfoques a tomar decisiones que aumenten tu ganancia.</p>
                     </div>
                     <div class="space-60"></div>
                     <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
@@ -236,16 +237,15 @@
                             <i class="lnr lnr-paperclip"></i>
                         </div>
                         <h4>Resultados inmediatos</h4>
-                        <p></p>
+                        <p>Tendrás tus precios, costos, rentabilidad, ahorros en segundos para que puedas tomar decisiones inmediatas.</p>
                     </div>
                     <div class="space-60"></div>
                     <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
                         <div class="box-icon">
                             <i class="lnr lnr-cloud-download"></i>
                         </div>
-                        <h4>Almacenamiento en la Nube</h4>
-                        <p>Obten todos los beneficios de estar en la nube, copia de seguridad y tus datos sincronizados
-                            de forma segura en tus dispositivos</p>
+                        <h4>Tecnología</h4>
+                        <p>Obtén la mejor tecnologia y al mejor precio. Tezlik esta desarrollado con tecnologia de punta contando además con todo el respaldo de servidores que mantienen tu informacion 100% disponible y segura</p>
                     </div>
                     <div class="space-60"></div>
                 </div>
@@ -260,7 +260,7 @@
                             <i class="lnr lnr-clock"></i>
                         </div>
                         <h4>Notificaciones sencillas</h4>
-                        <p></p>
+                        <p>identifica rápidamente mediante colores en las notificaciones si estas ingresamdp la información correctamente, Eliminado las dudas en el proceso. Algo muy importante es que Tezlik siempre te va ir llevando, es muy intuitivo y fácil de usar</p>
                     </div>
                     <div class="space-60"></div>
                     <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
@@ -268,7 +268,7 @@
                             <i class="lnr lnr-laptop-phone"></i>
                         </div>
                         <h4>En todos tus dispositivos</h4>
-                        <p>Cuenta con tu información desde cuaquier lugar</p>
+                        <p>Cuenta con tu información desde cuaquier dispositivo y lugar, valida que deseas y obten resultados inmediatos</p>
                     </div>
                     <div class="space-60"></div>
                     <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
@@ -299,8 +299,8 @@
                     </div>
                     <div class="space-20"></div>
                     <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                        <p>Enfocate en lo que necesitas. Tu tiempo es importante, liberarlo de tareas operativas. con
-                            Tezlik obten potentes resultados.</p>
+                        <p>Enfocate en lo que necesitas. Tu tiempo es importante, liberarte de tareas operativas. Con
+                            Tezlik obten maravillosos resultados.</p>
                     </div>
                     <div class="space-50"></div>
                     <!-- <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a> -->
@@ -425,7 +425,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-5 col-lg-3">
+                <div class="col-xs-12 col-sm-6 col-lg-5">
                     <div class="page-title">
                         <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Tezlik</h5>
                         <div class="space-10"></div>
@@ -435,6 +435,13 @@
                     <div class="desc wow fadeInUp" data-wow-delay="0.6s">
                         <p>Tezlik es poderoso e intuitivo, es muy fácil de usar, solo carga la información y empieza a
                             trabajar profesionalmente</p>
+                        <p>Tezlik corre sobre:</p>
+                        <li><b>LiteSpeed Enterprise</b>: que aumenta el rendimiento hasta nueve vece más, aumentando la velocidad de acceso a su cuenta.</li>
+                        <li><b>99.99% de tiempo en linea</b>: alta disponibilidad para que nunca te falte la información, ni siquiera mientras duerme.</li>
+                        <li><b>Imunify360</b>: protege a Tezlik de infecciones.</li>
+                        <li><b>Protocolo HTTPS</b>: Navegacion totalmente segura para proteger la integridad y confidencialidad de tus datos a través del cifrado, integridad de los datos y autenticación</li>
+                        <li><b>WAF</b>: preserva completamente la seguridad de los datos</li>
+                        <li><b>Monitoreo 24/7/365</b>: monitoreo constante, con reportes y alertas inmediatas al equipo técnico y Datacenter.</li>
                     </div>
                     <div class="space-50"></div>
                     <!-- <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a> -->
@@ -496,6 +503,7 @@
                                 <li>Soporte ilimitado</li>
                                 <li><b>80 Referencias</b></li>
                                 <li><b>Un usuario</b></li>
+                                <li>Pagalo trimestral, semestral o anual</li>
                             </ul>
                         </div>
                         <!-- <div class="price-rate" style="color:orange;">
@@ -503,7 +511,8 @@
                             <sup></sup> <span class="rate"></span> <br> <small>$80.000 Pago Mensual</small>
                         </div> -->
                         <div class="price-footer">
-                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a>
+                            <a class="bttn-white" onclick="cotizar(1);">Cotizar</a>
+                            <!-- <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a> -->
                         </div>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
@@ -524,6 +533,7 @@
                                 <li>Soporte ilimitado</li>
                                 <li><b>150 Referencias</b></li>
                                 <li><b>Un usuario</b></li>
+                                <li>Pagalo trimestral, semestral o anual</li>
                             </ul>
                         </div>
                         <!-- <div class="price-rate">
@@ -532,7 +542,8 @@
                         </div> -->
 
                         <div class="price-footer">
-                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a>
+                            <a class="bttn-white" onclick="cotizar(2);">Cotizar</a>
+                            <!-- <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a> -->
                         </div>
                     </div>
                     <div class="space-30 hidden visible-xs"></div>
@@ -555,6 +566,7 @@
                                 <li>Soporte ilimitado</li>
                                 <li><b>Referencias ilimitadas</b></li>
                                 <li><b>Dos usuarios</b></li>
+                                <li>Pagalo trimestral, semestral o anual</li>
                             </ul>
                         </div>
                         <!-- <div class="price-rate" style="color: chocolate;">
@@ -562,7 +574,8 @@
                             <sup></sup> <span class="rate"></span> <br> <small>$195.000 Pago Trimestral</small>
                         </div> -->
                         <div class="price-footer">
-                            <a href="https://tezliksoftware.com.co/register/" target="_blank" class="bttn-white">Cotizar</a>
+                            <a class="bttn-white" onclick="cotizar(3);">Cotizar</a>
+                            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button> -->
                         </div>
                     </div>
                 </div>
@@ -832,6 +845,8 @@
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="js/letras.js"></script>
+    <script src="js/cotizar.js"></script>
+    <script src="../assets/toastr/toastr.min.js"></script>
     <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/50bdb091-5a54-43a5-8359-c926b2306ea2-loader.js"></script>
 </body>
 
